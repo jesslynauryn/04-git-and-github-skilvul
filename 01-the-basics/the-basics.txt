@@ -1,0 +1,40 @@
+1. mkdir git-basic
+2. cd git-basic 
+3. touch first.txt
+4.  git init .
+5. git add .
+6. git commit -m "adding first.txt"
+7. git log
+$ git log
+commit 7391fb6a0cddb77c7cb498e93d8d3d4a1c60b4ea (HEAD -> master)
+Author: jesslynauryn <jesslynauryn@rocketmail.com>
+Date:   Sun Sep 19 00:13:03 2021 +0700
+
+    adding first.txt
+
+
+8. touch second.txt
+9. git add second.txt
+10. git commit -m "adding second.txt"
+11. rm first.txt
+12. git add .
+13. git commit -m "removing first.txt"
+14. git log
+$ git log
+commit 3e3ed967fca67aeb4ac455df9b6eb2a562ec66da (HEAD -> master)
+Author: jesslynauryn <jesslynauryn@rocketmail.com>
+Date:   Sun Sep 19 00:15:07 2021 +0700
+
+    removing first.txt
+
+commit 253031eebbf955a8b0135c768c8650c30a90eca3
+Author: jesslynauryn <jesslynauryn@rocketmail.com>
+Date:   Sun Sep 19 00:14:06 2021 +0700
+
+    adding second.txt
+
+commit 7391fb6a0cddb77c7cb498e93d8d3d4a1c60b4ea
+Author: jesslynauryn <jesslynauryn@rocketmail.com>
+Date:   Sun Sep 19 00:13:03 2021 +0700
+
+    adding first.txt
