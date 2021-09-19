@@ -1,0 +1,29 @@
+1. git clean remove untracked files from the working tree, cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
+
+2. git clean 
+-d : specify -d to have it recurse into directories and remove it
+-f, --force : git will delete files or directories and modify untracked nested git repositories (directories with a .git subdirectory)
+
+3. git command creates a branch: 
+git branch <new-branch>
+
+4. with fast-forward merge, you have a straight line of history and with the recursive merge, it is of multiple lines 
+
+5. What git command changes to another branch?
+git checkout <branch-name>
+
+6. remove modified or deleted files from the working directory:
+ git add -u <directory-path>, utk hapus semua: git add -u .
+
+7. git command deletes a branch:
+git branch -d <branch>
+
+8. The git diff command displays the differences between files in two commits or between a commit and your current repository. You can see what text has been added to, removed from, and changed in a file. By default, the git diff command displays any uncommitted changes to your repository.
+
+9. remove files from the staging area:
+$ git reset HEAD <file-name>
+
+# Or everything
+$ git reset HEAD
+
+10. Merge conflicts can happen when merging a branch, rebasing a branch, or cherry picking a commit.
