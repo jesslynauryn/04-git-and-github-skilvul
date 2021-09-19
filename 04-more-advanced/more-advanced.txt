@@ -1,0 +1,20 @@
+1. git reset and git revert
+perbedaan git reset dan git revert yaitu perintah git reset akan mengembalikan file ke kondisi sebelumnya, kemudian menghapus history commit berikutnya, sedangkan perintah git revert mengembalikan file (balik ke file) tanpa menghapus history commit
+
+2. git merge and git rebase
+keduanya mengintegrasikan changes from one branch into another, dengan git rebase moves a feature branch into a master sedangkan git merge adds a new commit, preserving the history
+
+3. git stash pop and git stash apply
+git stash pop throws away the (topmost, by default) stash after applying it, whereas git stash apply leaves it in the stash list for possible later reuse (or you can then git stash drop it).
+
+git stash apply //apply the changes without removing stored files from stash area.
+git stash pop  // apply the changes as well as remove stored files from stash area.
+git apply only apply the changes from stash area while git pop apply as well as remove change from stash area.
+git stash pop = git stash apply + git stash drop
+
+git stash pop digunakan ketika  you're ready to continue working on your master branch, dengan 
+git stash apply, you'll get the stashed content but you'll also keep it
+
+4. interactive mode when rebasing
+Interactive rebase in Git is a tool that provides more manual control of your history revision process. When using interactive rebase, you will specify a point on your branch's history, and then you will be presented with a list of commits up until that point.
+Interactive rebasing can be used for changing commits in many ways such as editing, deleting, and squashing.
