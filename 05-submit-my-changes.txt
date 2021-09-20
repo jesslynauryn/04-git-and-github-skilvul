@@ -1,0 +1,23 @@
+1. fork (screenshot)
+https://drive.google.com/file/d/1ivbZtNLp5BgAZuKeedWsxdffyjOixZFV/view?usp=sharing
+2. git clone https://github.com/jesslynauryn/tech4impact-students-bio.git
+3. git branch jesslyn-auryn
+4. git checkout jesslyn-auryn
+5. touch jesslynauryn.md
+6. (ss) 
+https://drive.google.com/file/d/1Q6IbFhfLK_NA3MvTmTO4czvOkv8Wq-No/view?usp=sharing
+7. git add jesslynauryn.md
+8. git commit -m "jesslynauryn"
+9. git checkout master
+git merge jesslyn-auryn
+1o. git remote -v
+git remote remove github-latihan-origin
+git remote add origin https://github.com/jesslynauryn/tech4impact-students-bio.git
+git push origin master
+
+11. (ss) pull request
+https://drive.google.com/file/d/1nJvziOA2nJVvAuM4R1f2GXBovLfghRyi/view?usp=sharing
+
+link to fork file :https://github.com/jesslynauryn/tech4impact-students-bio
+
+
